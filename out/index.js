@@ -18,3 +18,5 @@ const processData = (input) => {
         return sum;
     }
 };
+console.log(processData("HELLO"));
+console.log(processData([1, 2, 3, 4]));

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD Application with Fetch API</title>
+    <link rel="stylesheet" href="CURDapp.css">
+</head>
+
+<body>
+    <h1 id="h1">Student Database Management</h1>
+    <div class="input" id="input1">
+        <form>
+            <input id="stdInput" name="StudentName" placeholder="Studnet Name">
+            <input id="majInput" name="Major" placeholder="Student Major">
+            <button id="submit" name="SubmitButton">Submit</button>
+        </form>
+    </div>
+
+    <div id="divtab1">
+      <table id="dbTable1">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Major</th>
+                <th scope="col">Actions</th>
+            </tr>
+            <br>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>John Doe</td>
+                <td>Computer Science</td>
+                <td>
+                    <button type="button" id="update">update</button>
+                    <button type="button" id="delete">delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>test1</td>
+                <td>maj</td>
+                <td>
+                    <button type="button" id="update">update</button>
+                    <button type="button" id="delete">delete</button>
+                </td>
+            </tr>
+        </tbody>
+      </table>
+        
+        
+    </div>
+    <script src="CRUDapp.js"></script>
+</body>
+
+</html>
